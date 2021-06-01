@@ -1,0 +1,59 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.rcParams['figure.figsize'] = [20, 16]
+
+x1 = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+y1 = np.array([0, 99.95, 198.70, 301.40, 399.50, 501.30, 602.40, 698.30, 798.70, 897.20, 997.80])
+A1 = np.vstack([x1, np.ones(len(x1))]).T
+m1, c1 = np.linalg.lstsq(A1, y1)[0]
+print(m1, c1)
+#plt.errorbar(x1, y1, xerr=0.24, yerr=0, color='k', linestyle='None')
+plt.plot(x1, y1, 'o', color='k', markersize=2)
+plt.plot(x1, m1*x1 + c1, 'c', label='Нагрузка примерно 5.7 Н')
+
+x2 = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+y2 = np.array([0, 143.41, 283.10, 429.60, 569.20, 715.60, 858.70, 1002.3, 1144.90, 1286.70, 1429.80])
+A2 = np.vstack([x2, np.ones(len(x2))]).T
+m2, c2 = np.linalg.lstsq(A2, y2)[0]
+print(m2, c2)
+#plt.errorbar(x2, y2, xerr=0.23, yerr=0, color='k', linestyle='None')
+plt.plot(x2, y2, 'o', color='k', markersize=2)
+plt.plot(x2, m2*x2 + c2, 'y', label='Нагрузка примерно 10.39 Н')
+
+x3 = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+y3 = np.array([0, 163.85, 325.70, 491.10, 653.20, 810.40, 981.90, 1144.20, 1311.10, 1470.90, 1634.70])
+A3 = np.vstack([x3, np.ones(len(x3))]).T
+m3, c3 = np.linalg.lstsq(A3, y3)[0]
+print(m3, c3)
+#plt.errorbar(x3, y3, xerr=0.25, yerr=0, color='k', linestyle='None')
+plt.plot(x3, y3, 'o', color='k', markersize=2)
+plt.plot(x3, m3*x3 + c3, 'r', label='Нагрузка примерно 15.1 Н')
+
+x4 = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+y4 = np.array([0, 193.50, 384.40, 578.80, 772.70, 964.60, 1157.80, 1353.30, 1544.90, 1738.90, 1931.40])
+A4 = np.vstack([x4, np.ones(len(x4))]).T
+m4, c4 = np.linalg.lstsq(A4, y4)[0]
+print(m4, c4)
+#plt.errorbar(x4, y4, xerr=0.29, yerr=0, color='k', linestyle='None')
+plt.plot(x4, y4, 'o', color='k', markersize=2)
+plt.plot(x4, m4*x4 + c4, 'g', label='Нагрузка примерно 19.9 Н')
+
+x5 = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+y5 = np.array([0, 208.80, 413.80, 628.80, 836.60, 1050.50, 1253.80, 1463.90, 1673.20, 1877.90, 2090.40])
+A5 = np.vstack([x5, np.ones(len(x4))]).T
+m5, c5 = np.linalg.lstsq(A5, y5)[0]
+print(m5, c5)
+#plt.errorbar(x5, y5, xerr=0.29, yerr=0, color='k', linestyle='None')
+plt.plot(x5, y5, 'o', color='k', markersize=2)
+plt.plot(x5, m5*x5 + c5, 'b', label='Нагрузка примерно 24.8 Н')
+
+plt.title('Частота от номера гармоники при разных нагрузках', fontsize=20)
+plt.minorticks_on()
+plt.grid(which='major', color='k', linewidth=1)
+plt.grid(which='minor', color='k', linestyle=':')
+
+plt.xlabel('Номер гармоники, n', fontsize=15)
+plt.ylabel('Частота, Гц', fontsize=15)
+plt.legend()
+plt.show()

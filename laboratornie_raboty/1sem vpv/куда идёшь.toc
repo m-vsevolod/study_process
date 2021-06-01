@@ -1,0 +1,9 @@
+\babel@toc {russian}{}
+\contentsline {section}{Введение}{2}%
+\contentsline {section}{Теоретическая справка}{2}%
+\contentsline {subsection}{Растяжение}{2}%
+\contentsline {subsection}{Шаги}{3}%
+\contentsline {section}{Наблюдения}{3}%
+\contentsline {subsection}{Шаги}{3}%
+\contentsline {subsection}{Падение}{5}%
+\contentsline {section}{Вывод}{7}%
