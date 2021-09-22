@@ -1,18 +1,29 @@
-#include<iostream>
+﻿#include<iostream>
+
 #include<fstream>
+
 #include<cmath>
 
-int main(){
 
-    std::ofstream resout;
-    resout.open("function.txt");
 
-    double u = 0.05; // константа u
+int main() {
 
-    double zerodots[11]; // массив начальных данных
-    double dots[11]; // рабочий массив
 
-    /* заполнение начальными данными */
+	std::ofstream resout;
+
+	resout.open("function.txt");
+
+ 
+	double u = 0.05; // константа u
+
+
+	double zerodots[11]; // массив начальных данных
+	
+double dots[11]; // рабочий массив
+
+
+
+	    /* заполнение начальными данными */
 
     for ( int i = 1; i < 11; i++){
         double x = i;
