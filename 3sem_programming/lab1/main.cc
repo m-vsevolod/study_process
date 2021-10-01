@@ -11,7 +11,7 @@ using std::string;
 
 
 
-class Predicate {
+class State{
 public:
 	virtual bool contains(int s) const {
 		return true;
@@ -20,7 +20,7 @@ public:
 
 
 
-class DiscreteState: public Predicate {
+class DiscreteState: virtual public State{
 private:
 	int const state;
 public:
@@ -33,7 +33,7 @@ public:
 
 
 
-class SegmentState: public Predicate {
+class SegmentState: virtual public State{
 private:
 	int const beg, end;
 public:
@@ -47,7 +47,7 @@ public:
 
 
 
-class SetState: public Predicate {
+class SetState: virtual public State{
 private:
 	std::set<int> const states;
 public:
@@ -61,13 +61,14 @@ public:
 
 
 
-// пересечение отрезка и набора точек
-class States1: public Predicate {
+// intersection of segments and dots:
+
+class States1: public State{
 private:
-	const Predicate& s1;
-	const Predicate& s2;
+	const State& s1;
+	const State& s2;
 public:
-	States1(const Predicate& s1, const Predicate& s2): s1(s1), s2(s2) {};
+	States1(const State& s1, const State& s2): s1(s1), s2(s2) {};
 	
 	bool contains(int s) const {
 		return s1.contains(s) && s2.contains(s);
@@ -76,13 +77,14 @@ public:
 
 
 
-// объединение отрезка и набора точек
-class States2: public Predicate {
+// union of segments and dots
+
+class States2: public State{
 private:
-	const Predicate& s1;
-	const Predicate& s2;
+	const State& s1;
+	const State& s2;
 public:
-	States2(const Predicate& s1, const Predicate& s2): s1(s1), s2(s2) {};
+	States2(const State& s1, const State& s2): s1(s1), s2(s2) {};
 	
 	bool contains(int s) const {
 		return s1.contains(s) || s2.contains(s); 
@@ -91,13 +93,14 @@ public:
 
 
 
-// исключение точек из отрезка
-class States3: public Predicate {
+// segment except dots
+
+class States3: public State{
 private:
-	const Predicate& s1;
-	const Predicate& s2;
+	const State& s1;
+	const State& s2;
 public:
-	States3(const Predicate& s1, const Predicate& s2): s1(s1), s2(s2) {};
+	States3(const State& s1, const State& s2): s1(s1), s2(s2) {};
 
 	bool contains(int s) const {
 		return !s1.contains(s) && s2.contains(s);
@@ -115,7 +118,7 @@ public:
 	ProbabilityTest(unsigned seed, int test_min, int test_max, unsigned test_count):
 	seed(seed), test_min(test_min), test_max(test_max), test_count(test_count) { }
 
-	float operator()(Predicate const &s) const {
+	float operator()(State const &s) const {
 
 		std::default_random_engine rng(seed);
         	std::uniform_int_distribution<int> dstr(test_min,test_max);
