@@ -1,0 +1,125 @@
+\documentclass[a4paper, fontsize = 14pt]{article}
+\usepackage{hyperref}
+\usepackage[warn]{mathtext}
+\usepackage[english, russian
+]{babel}
+\usepackage[utf8x]{inputenc} 
+ 
+%математика
+\usepackage[mathscr]{eucal}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+\usepackage{icomma}
+\usepackage{wasysym}
+\usepackage{mathrsfs}
+\usepackage[italicdiff]{physics}
+ 
+%оформление текста
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{indentfirst}
+\usepackage{scrextend}
+ 
+%геометрия
+\usepackage{geometry}
+\geometry{left=25mm,right=25mm,
+ top=25mm,bottom=30mm}
+ 
+%графика
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ --- }
+\captionsetup{justification=centering,labelsep=defffis}
+ 
+%таблицы
+\usepackage{array,tabularx,tabulary,booktabs} 
+\usepackage{longtable}  
+\usepackage{multirow} 
+ 
+%ссылки
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{grn}{HTML}{57A14F} %зеленый
+\definecolor{rd}{HTML}{E53C44} %красный 
+\definecolor{bl}{HTML}{282691} %синий 
+\definecolor{bbl}{HTML}{001B6C} %темно-синий
+\hypersetup{		
+    colorlinks=true,       	
+    linkcolor=bbl,          % внутренние ссылки
+    citecolor=rd,          % на библиографию
+    filecolor=magenta,      % на файлы
+    urlcolor=bl           %внешние источники
+}
+ 
+% Колонтитулы
+\usepackage{fancyhdr} 
+ 	\pagestyle{fancy}
+ 	\renewcommand{\headrulewidth}{0.15mm}  
+ 	\renewcommand{\footrulewidth}{0.15mm}
+ 	\lfoot{}
+ 	\rfoot{\thepage}
+ 	\cfoot{}
+ 	\rhead{}
+ 	\chead{}
+ 	\lhead{}
+ 
+ 
+\begin{document}
+
+\begin{center} \textbf{Kitaev Algorithm}
+\end{center} 
+
+The magnetic moment of our artificial atom is:
+
+\begin{equation*}
+	\mu = S \hbar |d \omega_{01}/d\Phi|,
+\end{equation*}
+
+which is directly proportional to the area S and the rate change with flux $\Phi$ of the transition frequency $\omega_{01}$. For our device we obtain $d\omega_{01}/d\Phi = -2\pi \times 5.3 GHz/\Phi_0$ at the bias point, resulting in $\mu = 1.10 \times 10^5 \mu_B$. 
+
+Operating away from the bias point leads to a reduction of the decoherence time $T_2$ : ${T_2}^{-1} = (2T_1)^{-1} + {T_\Phi}^{-1}$, where $2T_1$ is a sum of relaxation time and $T_\Phi$ is a dephasing time. The dephasing rate appreciably increases at our bias point, which reduces $T_2$ and thus the number of available steps that can be implemented in the Kitaev algorithm. 
+
+In the experiment we apply a Ramsey sequence of two consecutive $\pi/2$ pulses separated by a time delay $\tau$, which corresponds to an effective spin-1/2 precession around the z-axis of the Bloch sphere. The precession angle $\phi = \Delta \omega (\Phi) \tau$ is defined by the frequency mismatch $\Delta \omega(\Phi) = \omega_d - \omega_{01}(\Phi)$ between the transition frequency $\omega_{01}(\Phi)$ of the transmon qubit and the fixed drive frequency $\omega_d$ of the $\pi/2$ pulses. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
