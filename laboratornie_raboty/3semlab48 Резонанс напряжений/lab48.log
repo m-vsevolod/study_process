@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.11)  11 OCT 2021 17:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.11)  11 OCT 2021 23:03
 entering extended mode
 **./lab48.tex
 (lab48.tex
@@ -1615,7 +1615,70 @@ File: lab48ris3.png Graphic file (type png)
 <use lab48ris3.png>
 Package pdftex.def Info: lab48ris3.png  used on input line 280.
 (pdftex.def)             Requested size: 346.95384pt x 266.43356pt.
-[6] [7 <./lab48ris4.png> <./lab48ris3.png>] (lab48.aux)
+[6] [7 <./lab48ris4.png> <./lab48ris3.png>]
+
+Package mathtext Warning: letter `cyra' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyrk' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyrt' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyrr' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyra' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyrk' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyrt' used in math mode on input line 286.
+
+
+Package mathtext Warning: letter `cyrm' used in math mode on input line 288.
+
+
+Package mathtext Warning: letter `cyrm' used in math mode on input line 288.
+
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 288.
+
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 288.
+
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 288.
+
+<lab48ris5.png, id=82, 1284.8pt x 1156.32pt>
+File: lab48ris5.png Graphic file (type png)
+<use lab48ris5.png>
+Package pdftex.def Info: lab48ris5.png  used on input line 292.
+(pdftex.def)             Requested size: 256.95544pt x 231.2599pt.
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 296.
+
+
+Package mathtext Warning: letter `cyrt' used in math mode on input line 296.
+
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 296.
+
+
+Package mathtext Warning: letter `cyrt' used in math mode on input line 296.
+
+[8 <./lab48ris5.png>]
+<lab48ris6.png, id=88, 1284.8pt x 902.37125pt>
+File: lab48ris6.png Graphic file (type png)
+<use lab48ris6.png>
+Package pdftex.def Info: lab48ris6.png  used on input line 304.
+(pdftex.def)             Requested size: 385.44298pt x 270.71346pt.
+ [9 <./lab48ris6.png>] (lab48.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.48004pt have occurred.
@@ -1627,10 +1690,10 @@ Package rerunfilecheck Info: File `lab48.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36383 strings out of 478864
- 805680 string characters out of 2849134
+ 36403 strings out of 478864
+ 806000 string characters out of 2849134
  1263199 words of memory out of 3000000
- 53644 multiletter control sequences out of 15000+600000
+ 53658 multiletter control sequences out of 15000+600000
  412859 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,108p,1243b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1649,9 +1712,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
 ers/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10
 .pfb>
-Output written on lab48.pdf (7 pages, 250911 bytes).
+Output written on lab48.pdf (9 pages, 351376 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
