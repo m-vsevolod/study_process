@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.11)  6 OCT 2021 04:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.11)  11 OCT 2021 17:04
 entering extended mode
 **./lab48.tex
 (lab48.tex
@@ -1524,13 +1524,7 @@ Package mathtext Warning: letter `cyrm' used in math mode on input line 228.
 Package mathtext Warning: letter `cyrm' used in math mode on input line 228.
 
 
-Package mathtext Warning: letter `cyrd' used in math mode on input line 228.
-
-
-Package mathtext Warning: letter `cyre' used in math mode on input line 228.
-
-
-Package mathtext Warning: letter `cyrl' used in math mode on input line 228.
+Package mathtext Warning: letter `CYRA' used in math mode on input line 228.
 
 
 Package mathtext Warning: letter `CYRV' used in math mode on input line 228.
@@ -1611,16 +1605,16 @@ Package mathtext Warning: letter `CYRG' used in math mode on input line 258.
 
 Package mathtext Warning: letter `cyrn' used in math mode on input line 258.
 
-<lab48ris4.png, id=65, 533.5935pt x 447.47176pt>
+<lab48ris4.png, id=65, 465.53925pt x 383.63326pt>
 File: lab48ris4.png Graphic file (type png)
 <use lab48ris4.png>
 Package pdftex.def Info: lab48ris4.png  used on input line 274.
-(pdftex.def)             Requested size: 266.7961pt x 223.73532pt.
-<lab48ris3.png, id=66, 475.7775pt x 372.1905pt>
+(pdftex.def)             Requested size: 325.87524pt x 268.54144pt.
+<lab48ris3.png, id=66, 495.65175pt x 380.622pt>
 File: lab48ris3.png Graphic file (type png)
 <use lab48ris3.png>
 Package pdftex.def Info: lab48ris3.png  used on input line 280.
-(pdftex.def)             Requested size: 285.46869pt x 223.31602pt.
+(pdftex.def)             Requested size: 346.95384pt x 266.43356pt.
 [6] [7 <./lab48ris4.png> <./lab48ris3.png>] (lab48.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1635,7 +1629,7 @@ Package rerunfilecheck Info: File `lab48.out' has not changed.
 Here is how much of TeX's memory you used:
  36383 strings out of 478864
  805680 string characters out of 2849134
- 1263198 words of memory out of 3000000
+ 1263199 words of memory out of 3000000
  53644 multiletter control sequences out of 15000+600000
  412859 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1655,7 +1649,7 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
 ers/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10
 .pfb>
-Output written on lab48.pdf (7 pages, 251944 bytes).
+Output written on lab48.pdf (7 pages, 250911 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
