@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.11)  11 OCT 2021 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.11)  12 OCT 2021 13:10
 entering extended mode
 **./lab48.tex
 (lab48.tex
@@ -1676,9 +1676,80 @@ Package mathtext Warning: letter `cyrt' used in math mode on input line 296.
 <lab48ris6.png, id=88, 1284.8pt x 902.37125pt>
 File: lab48ris6.png Graphic file (type png)
 <use lab48ris6.png>
-Package pdftex.def Info: lab48ris6.png  used on input line 304.
+Package pdftex.def Info: lab48ris6.png  used on input line 306.
 (pdftex.def)             Requested size: 385.44298pt x 270.71346pt.
- [9 <./lab48ris6.png>] (lab48.aux)
+
+
+Package mathtext Warning: letter `cyrm' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyrk' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `CYRF' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyrr' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyrz' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `CYRA' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyrr' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `cyrz' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 310.
+
+
+Package mathtext Warning: letter `CYRV' used in math mode on input line 310.
+
+
+Overfull \hbox (2.29466pt too wide) in paragraph at lines 310--311
+[]\T2A/cmr/m/n/14.4 Выберем для ана-ли-за наи-боль-шую из из-ме-рен-ных јм-ко-с
+тей: $\OML/cmm/m/it/14.4 C \OT1/cmr/m/n/14.4 = 50\OML/cmm/m/it/14.4 ;\OT1/cmr/m
+/n/14.4 2 \OMS/cmsy/m/n/14.4 
+ []
+
+
+Overfull \hbox (16.01651pt too wide) in paragraph at lines 310--311
+\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 5$\T2A/cmr/m/n/14.4 . 
+Сни-мем по-ка-за-ния дат-чи-ков: ток в це-пи -- $\OML/cmm/m/it/14.4 I[] \OT1/cm
+r/m/n/14.4 = 4\OML/cmm/m/it/14.4 ;\OT1/cmr/m/n/14.4 40 \OMS/cmsy/m/n/14.4  \OT
+1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ;\OT1/cmr/m/n/14.4 3 \T2A/cmr/m/n/14.4 А$,на
+пряжение
+ []
+
+
+Package mathtext Warning: letter `cyrr' used in math mode on input line 313.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 313.
+
+
+Package mathtext Warning: letter `cyrz' used in math mode on input line 313.
+
+
+Package mathtext Warning: letter `cyrr' used in math mode on input line 313.
+
+
+Package mathtext Warning: letter `cyre' used in math mode on input line 313.
+
+
+Package mathtext Warning: letter `cyrz' used in math mode on input line 313.
+
+[9 <./lab48ris6.png>] (lab48.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.48004pt have occurred.
@@ -1690,8 +1761,8 @@ Package rerunfilecheck Info: File `lab48.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36403 strings out of 478864
- 806000 string characters out of 2849134
+ 36405 strings out of 478864
+ 806024 string characters out of 2849134
  1263199 words of memory out of 3000000
  53658 multiletter control sequences out of 15000+600000
  412859 words of font info for 54 fonts, out of 8000000 for 9000
@@ -1712,9 +1783,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
 ers/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10
 .pfb>
-Output written on lab48.pdf (9 pages, 351376 bytes).
+Output written on lab48.pdf (9 pages, 355173 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 314 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
