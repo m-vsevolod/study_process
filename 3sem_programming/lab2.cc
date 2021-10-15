@@ -1,6 +1,6 @@
 #include <iostream>
 
-template <typename T> // took into account the comment about different data types
+template <typename T> // takes into account the comment about different data types
 class Grid {
 private:
 	T* memory;
@@ -76,7 +76,7 @@ public:
 };
 
 int main(){
-	Grid<int> g1(5,3); // creates a matrix 2 x 3
+	Grid<int> g1(5,3); // creates a matrix 3 x 5
 	g1 = 3; // fills it with 3
 	std::cout << g1; // shows it
 
