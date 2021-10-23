@@ -86,7 +86,7 @@ int main(){
 	std::cin >> g2; // fills the matrix using the keyboard
 	std::cout << std::endl << g2; 
 
-	Grid<int> g3(g1); // copies g1
+	Grid<int> g3(g1); // copies g1 
 	std::cout << g3;
 	g3(1,1) = 5;
 	std::cout << "changes have passed \n" <<g3;
