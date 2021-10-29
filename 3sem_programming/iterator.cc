@@ -105,7 +105,7 @@ public:
 
 	// dereference operator
 	T& operator*() {
-		return *p; }
+		return *p; } 
 		
 };
 
