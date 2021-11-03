@@ -46,6 +46,12 @@ public:
 	}
 };
 
+class NewErr : public Errors {
+public:
+	void perr() override {
+		cout << "newerr";
+	}
+};
 
 
 class scheme {
@@ -200,7 +206,6 @@ int main() {
     	}
 	
 	try{
-
     		CIR cir(N, T);
     		cir.get_solve(initial);
     		cir.present_output(); 
